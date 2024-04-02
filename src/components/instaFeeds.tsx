@@ -7,7 +7,7 @@ import useFetchFeed from "../hooks/useFetchFeed";
 const InstaFeeds: React.FC<InstaFeedsProps> = ({ token, limit }) => {
   const {feeds, error, loading} = useFetchFeed(token, limit);
   return (
-    <div className="container">
+    <div className="img-container">
       {!error && feeds?.map((feed) => (
         <Feed key={feed.id} feed={feed} />
       ))}

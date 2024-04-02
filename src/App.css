@@ -2,6 +2,59 @@ body {
   background-color: black;
 }
 
-h1 {
+h1,text  {
   color: aliceblue;
 }
+
+.wrapper {
+  display: flex;
+}
+
+.container {
+  display: flex;
+flex-direction: column;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.App-Header {
+  display: flex;
+  color: white;
+  align-items: center;
+  padding-top: 5vw;
+  width: 70vw;
+  margin-bottom: 2rem;
+}
+
+.profile {
+ height: 10vw;
+  width: 10vw;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.info {
+  width: 50vw;
+}
+
+.instaFeed {
+  width: 70vw;
+}
+
+.stats {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.userName {
+ font-size: 2rem;
+}
+
+.profileImg {
+  height: 10vw;
+  width: 10vw;
+}
+
+
