@@ -14,7 +14,7 @@ const InstaFeeds: React.FC<InstaFeedsProps> = ({ token, limit }) => {
       { error &&
         <>{ error}</>
       }
-      {loading && "Loading...Thank you for your paitence" }
+      {loading && <p>Loading...Thank you for your paitence</p> }
     </div>
   );
 };
